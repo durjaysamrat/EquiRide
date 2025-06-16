@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "connect-flash": "^0.1.1",
+    "datatables.net-dt": "^2.0.8",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.18.0",
+    "flash": "^1.1.0",
+    "hbs": "^4.2.0",
+    "mongoose": "^8.4.1",
+    "nodemon": "^3.1.3"
+  }
+}

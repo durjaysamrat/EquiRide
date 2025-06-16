@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>PASSIONATE Riding</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({
+         reset: true, 
+         distance:'60px',
+         duration:2500,
+         delay:400        
+        });
+        var today=new Date().toISOString().split('T')[0];
+        document.getElementById("Date2").setAttribute('min',today);
+  </script>
+  </head>
+  <body>
+    <header class="nav">
+        <div class="container">
+            <input type="checkbox" name="" id="check">
+            
+            <div class="logo-container">
+                <img class="logo" src="https://i.ibb.co/RYcV7V8/logofinal3.png" width="60px"></img>
+                <h3 class="logo">PASSIONATE <span>R</span></h3>
+            </div>
+
+            <div class="nav-btn">
+                <div class="nav-links">
+                    <ul>
+                        <li class="nav-link" style="--i: .6s">
+                            <a href="home.html">Home</a>
+                        </li>
+                        <li class="nav-link" style="--i: .85s">
+                            <a href="home.html#services">Our Services</a>
+                        </li>
+                        <li class="nav-link" style="--i: .85s">
+                          <a href="home.html#aboutus">About Us</a>
+                      </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="home.html#ourteam">Our Team</a>
+                        </li>
+                        <li class="nav-link" style="--i: 1.3s">
+                            <a href="gallery.html">Our Gallery</a>
+                        </li>
+                        <li class="nav-link" style="--i: 1.5s">
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+                        </ul>
+                </div>
+
+                <div class="log-sign" id="op" style="--i: 2.0s">
+                    <a href="/success" class="btn transparent">Active Sessions</a>
+                </div>
+            </div>
+
+            <div class="hamburger-menu-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="sec-1">
+            <h1 class="s1">Schedule your class</h1>
+            </section>
+                   <section class="sec-9">
+            <form id="booking-form" method="post" action="/register">
+                <fieldset>
+                    <div id="main-form-inside"></div>
+                    <div class="group">
+                        <label for="Name" id="name-id">Your Name</label> <br>
+                        <input type="text" id="Name" name="Name" class="user-input" maxlength="25"> <br> <br>
+                    </div>
+    
+                    <div class="group">
+                        <label for="Gender">Gender</label> <br>
+                    <select id="Gender" name="Gender" class="user-input" required>
+                    <option value="">Choose</option>    
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    </select>
+                    </div>                                
+
+                    <div class="group">
+                        <label for="Age">Age</label> <br>
+                        <input type="number" id="Age" min="12" max="75" name="Age" class="user-input" required> <br> <br>
+                    </div>
+                    
+                    <div class="group">
+                        <label for="C1">Class </label> <br>
+                        <select id="C1" name="C1" class="user-input" required>
+                        <option value="">choose</option>
+                        <option value="Youth Saddle Club">Youth Saddle Club</option>
+                        <option value="Adult Riding Excellence">Adult Riding Excellence</option>                
+                        <option value="Women Saddle Mastery">Women Saddle Mastery</option>
+                        <option value="Novice Nurturing">Novice Nurturing</option>
+                        <option value="Intermediate Insights">Intermediate Insights</option>
+                        <option value="Advanced Achievements">Advanced Achievements</option>
+                    </select>
+                    </div>
+
+                    <div class="group">
+                        <label for="Date2">Date</label><br>
+                        <input type="Date" id="Date2" name="Date2" class="user-input" min="today" required/>
+                    </div >
+
+                    <div class="group">
+                        <label for="time">Time</label><br>
+                        <input type="time" id="time" name="time" class="user-input"  required/>
+                    </div>
+    
+                    <div class="group">
+                        <label for="phone">Contact Number</label> <br>
+                        <input type="tel" id="phone" name="phone" class="user-input" minlength="10" maxlength="10" required> <br> <br>
+                    </div>
+    
+                    <div class="group">
+                        <button id="form-submit-button">Schedule your class</button>
+                    </div>
+                    <div id="form-inside"></div>
+                </fieldset>
+            </form>
+       </section>
+</main>
+<!--Script -->
+<script >
+ScrollReveal().reveal('.s1,.s2', { delay: 100,origin:'left'  });
+ScrollReveal().reveal('.s3,.s4', { delay: 100,origin:'left' });
+ScrollReveal().reveal('.content2', { delay: 100,origin:'left' });
+
+ScrollReveal().reveal('.video', { delay: 150,origin:'left' });
+ScrollReveal().reveal('.image', { delay: 100,origin:'left' });
+
+ScrollReveal().reveal('.text-box,.ab1', { delay: 150,origin:'right' });
+ScrollReveal().reveal('.card,.coloumn,.coloumn3,.c4', { delay: 100,origin:'bottom',interval:'100' });
+</script>
+</body>
+
+</html>

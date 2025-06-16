@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>PASSIONATE Riding</title>
+    <link rel="stylesheet" href="//cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script>
+      ScrollReveal({
+         reset: true, 
+         distance:'60px',
+         duration:2500,
+         delay:400        
+        });     
+  </script>
+  </head>
+  <body>
+    <header class="nav">
+        <div class="container">
+            <input type="checkbox" name="" id="check">
+            
+            <div class="logo-container">
+                <h3 class="logo">Horse<span>Riding</span></h3>
+            </div>
+
+            <div class="nav-btn">
+                <div class="nav-links">
+                    <ul>
+                        <li class="nav-link" style="--i: .6s">
+                            <a href="home.html">Home</a>
+                        </li>
+                        <li class="nav-link" style="--i: .85s">
+                            <a href="home.html#services">Our Services</a>
+                        </li>
+                        <li class="nav-link" style="--i: .85s">
+                          <a href="home.html#aboutus">About Us</a>
+                      </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="home.html#ourteam">Our Team</a>
+                        </li>
+                        <li class="nav-link" style="--i: 1.3s">
+                            <a href="gallery.html">Our Gallery</a>
+                        </li>
+                        <li class="nav-link" style="--i: 1.5s">
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+                        </ul>
+                </div>
+
+                <div class="log-sign" id="op" style="--i: 2.0s">
+                    <a href="/login" class="btn transparent">Saddle Up Sessions</a>
+                </div>
+            </div>
+
+            <div class="hamburger-menu-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <!--welcome to our club-->
+        <section class="sec-1" id="">
+            <div class="container2">
+              <h2 class="s1">Welcome to the Happy Riders Academy!</h2>
+              <div class="content3">
+              <div class="image">
+            <img src="https://i.ibb.co/80J2ksR/2024-05-30-22-49-24-1714.png" alt="2024-05-30-22-49-24-1714">
+                </div>
+                <div class="text-box">
+                <h2 id="op">Happy Riders Academy</h2>
+                <h2 id="s4">With well-cared-for horses and top-notch facilities, we ensure your riding experience is both safe and enjoyable.</h2>
+                <a href="/login" class="btn transparent">Saddle Up Sessions</a>
+              </div>
+              </div>
+              </div>
+              <div style="overflow: auto;">
+                <h1 class="s1">Active Bookings</h1><br>
+                <table id="example" class="table table-striped table-bordered" style="width:100%">
+                    <thead>
+                  <tr>
+                      <th>Name </th>
+                      <th>Date2 </th>
+                      <th>Time</th>
+                      <th>Classes</th>
+                  </tr>
+                </thead>
+                <tbody>
+              <%result.forEach((y)=>{%>
+              <tr>
+              <td><%=y.Name%></td>
+              <td><%=y.Date2%></td>
+              <td><%=y.time%></td>
+              <td><%=y.C1%></td>
+              </tr>
+              <%})%>
+                </tbody>
+                </table>
+                 </div>
+             </div>
+        </section> 
+  </main>
+</body>
+<!--Script -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
+        <script src="https://cdn.datatables.net/2.0.8/js/dataTables.bootstrap4.js"></script>
+        <script >
+            ScrollReveal().reveal('.s1,.s2', { delay: 100,origin:'left'  });
+            ScrollReveal().reveal('.s3,.s4', { delay: 100,origin:'left' });
+            ScrollReveal().reveal('.content2', { delay: 100,origin:'left' });
+            
+            ScrollReveal().reveal('.video', { delay: 150,origin:'left' });
+            ScrollReveal().reveal('.image', { delay: 100,origin:'left' });
+            
+            ScrollReveal().reveal('.text-box,.ab1', { delay: 150,origin:'right' });
+            ScrollReveal().reveal('.card,.coloumn,.coloumn3,.c4', { delay: 100,origin:'bottom',interval:'100' });
+            
+            new DataTable('#example');
+
+            </script>
+  </html>
+  </html>
