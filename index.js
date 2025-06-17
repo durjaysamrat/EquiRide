@@ -5,8 +5,8 @@ const flash = require('connect-flash');
 const session = require('express-session');
 const bodyParser = require("body-parser");
 const { MongoClient } = require('mongodb');
-const collection=require("./mongo")
-const Registration=require("./reg")
+const collection=require("./models/mongo")
+const Registration=require("./routes/reg")
 const password = encodeURIComponent("NNKUM/2DSD");
 const MONGODB_URI = `mongodb+srv://durjaysamratn:${password}@project0.x8psfqs.mongodb.net/?retryWrites=true&w=majority&appName=project0`;
 const client = new MongoClient(MONGODB_URI);
