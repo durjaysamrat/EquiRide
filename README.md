@@ -1,61 +1,73 @@
 # 🐎 EquiRide – Real-Time Horse-Riding Booking Platform
 
-![EquiRide Banner](https://img.shields.io/badge/Full--Stack-Node%2BExpress%2BEJS-green)  
-🚀 Live Demo: [Watch on YouTube](https://youtu.be/h2RQVlNBfqU?si=Gi5KwCD_-qWOX60D)
+![EquiRide Banner](./banner.jpg)) <!-- Optional: Add a real image/GIF of your project UI -->
 
-> ⚡️ A full-stack real-time horse-riding platform, built during my internship, showcasing production-grade engineering, session management, booking workflows, admin panel, and MongoDB-backed storage.
+📍 **Live Demo**: [Watch on YouTube](https://youtu.be/h2RQVlNBfqU)  
+📁 **Repository**: [GitHub Repo](https://github.com/durjaysamrat/EquiRide)  
+🧠 Built as part of a production-grade system during my internship.
 
 ---
 
 ## 📌 Overview
 
-**EquiRide** is a **complete booking and registration platform** for horse-riding experiences. Designed with scalability, user authentication, session management, and admin workflows — it’s a cleaned-up open-source version of a production system used by real clients.
+**EquiRide** is a full-stack web platform designed to manage real-time horse-riding session bookings. Developed for a live client during my internship, this project simulates a production-grade system complete with user authentication, admin workflows, session tracking, and booking management.
 
-🧠 The production build includes:
-- Private AI integrations for demand prediction
-- Secure payment processing
-- OTP-based login (excluded in this repo)
+The open-source version mirrors the architecture used in the live product (deployed for actual horse-riding academies), minus private modules like AI demand prediction, payment gateway, and OTP login.
 
 ---
 
-## 🧑‍💻 Tech Stack
+## ⚙️ Tech Stack
 
-- **Frontend**: EJS Templates, Bootstrap 5, DataTables  
-- **Backend**: Node.js, Express.js, MongoDB, Mongoose  
-- **Auth & Sessions**: `express-session`, `connect-flash`  
-- **Database**: MongoDB Atlas  
-- **Hosting**: Ready for deployment on Render / Railway
-
----
-
-## 🌟 Key Features
-
-✅ User Sign Up & Login with Flash Messaging  
-✅ Admin Dashboard to View All Registrations  
-✅ Real-Time Booking System  
-✅ Fully Responsive UI with Bootstrap  
-✅ MongoDB Integration via Mongoose + Native Driver  
-✅ Booking Confirmation & Success Screen  
-✅ Error Handling and Flash-Based Alerts  
-✅ Private email-based session tracking logic  
-✅ Secure .env-based deployment ready
+| Layer         | Technologies                          |
+|---------------|----------------------------------------|
+| Frontend      | EJS Templates, Bootstrap 5, DataTables |
+| Backend       | Node.js, Express.js                    |
+| Database      | MongoDB Atlas, Mongoose                |
+| Auth & Flash  | express-session, connect-flash         |
+| Deployment    | Render / Railway ready (`.env` config) |
 
 ---
 
-## 📽 Demo Preview
+## ✨ Features
 
-▶️ [Click here to watch the complete demo](https://youtu.be/h2RQVlNBfqU?si=Gi5KwCD_-qWOX60D)
+✅ User Registration & Login (Flash Messaging & Sessions)  
+✅ Real-Time Booking Engine for Ride Scheduling  
+✅ Admin Panel to Manage and View All Registrations  
+✅ Booking Confirmation, Error Handling & Flash Alerts  
+✅ Fully Responsive UI with DataTables Integration  
+✅ MongoDB-Powered Backend with Mongoose ORM  
+✅ Private Email-Based Session Tracking (Production Version)  
+✅ Deployment-Ready (`.env` Config + Cloud-DB Integration)
 
 ---
 
-## 🚀 Run Locally
+## 🔐 Intern-Level Real-World Additions (Not Open-Sourced)
+
+> Part of this project was implemented in a real deployment with:
+- 🔒 OTP-based secure authentication
+- 🤖 AI-based ride demand prediction
+- 💳 Razorpay integration for online payments
+
+*(Excluded here due to licensing and security concerns)*
+
+---
+
+## 🧑‍💻 Project Highlights
+
+- Designed a fully functional booking system from scratch using **Express.js and MongoDB Atlas**.
+- Integrated **session tracking** and flash-based alerts for better user experience.
+- Built a responsive, clean UI with **Bootstrap 5** and **DataTables**.
+- Applied **environment variable-based configs** for smooth CI/CD and deployment.
+- Followed modular architecture and MVC principles to ensure maintainability and scalability.
+
+---
+
+## 🛠 How to Run Locally
 
 ```bash
+# Clone the repository
 git clone https://github.com/durjaysamrat/EquiRide.git
 cd EquiRide
+
+# Install dependencies
 npm install
-
-# Add your .env file with the following:
-MONGO_URI=your-mongodb-uri
-
-npm start
