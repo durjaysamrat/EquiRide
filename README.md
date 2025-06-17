@@ -1,7 +1,6 @@
 # 🐎 EquiRide – Real-Time Horse-Riding Booking Platform
 
-![EquiRide Banner](![image](https://github.com/user-attachments/assets/ed92f10b-0780-4cf2-abd2-9d734f78b7c8)
-) <!-- Optional: Add a real image/GIF of your project UI -->
+![EquiRide Banner](![image](https://github.com/user-attachments/assets/ed92f10b-0780-4cf2-abd2-9d734f78b7c8)) <!-- Optional: Add a real image/GIF of your project UI -->
 
 📍 **Live Demo**: [Watch on YouTube](https://youtu.be/h2RQVlNBfqU)  
 📁 **Repository**: [GitHub Repo](https://github.com/durjaysamrat/EquiRide)  
