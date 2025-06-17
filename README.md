@@ -1,7 +1,6 @@
 # 🐎 EquiRide – Real-Time Horse-Riding Booking Platform
 ![Node.js](https://img.shields.io/badge/Node.js-v18-green)
 ![MongoDB](https://img.shields.io/badge/MongoDB-v6.0-brightgreen)
-![License](https://img.shields.io/github/license/durjaysamrat/EquiRide)
 
 ![EquiRide Banner](./banner.jpg) <!-- Optional: Add a real image/GIF of your project UI -->
 
