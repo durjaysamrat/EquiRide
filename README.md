@@ -2,7 +2,7 @@
 
 ![EquiRide Banner](./banner.jpg) <!-- Optional: Add a real image/GIF of your project UI -->
 
-📍 **Live Demo**: [Watch on YouTube](https://youtu.be/h2RQVlNBfqU)  
+[![Watch the demo](https://img.youtube.com/vi/h2RQVlNBfqU/maxresdefault.jpg)](https://youtu.be/h2RQVlNBfqU)
 📁 **Repository**: [GitHub Repo](https://github.com/durjaysamrat/EquiRide)  
 🧠 Built as part of a production-grade system during my internship.
 
