@@ -79,7 +79,7 @@ app.post("/signup",async (req,res)=>{
 })
 
 app.post("/login",async (req,res)=>{
-   if(req.body.email=='admin@g.c'&&req.body.password=='admin')
+   if(req.body.email=='admin@equiride.com'&&req.body.password=='admin123')
     {
         var coll = db.collection('registrations');
         result = await coll.find({}).toArray();
@@ -137,5 +137,5 @@ app.get("/error", (req, res) => {
 });
 
 app.listen(3000,()=>{
-    console.log("port connected");
+    console.log("port connected at 3000");
 })
