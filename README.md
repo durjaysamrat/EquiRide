@@ -79,7 +79,7 @@ The production version at riding academies includes additional features I can't 
 | | | |
 |-|-|-|
 | **Home Page** | **Booking Interface** | **Admin View** |
-| ![Home](![image](https://github.com/user-attachments/assets/784f7469-ad09-4b55-afbe-b145c3b8f2d2)) | ![Booking](![image](https://github.com/user-attachments/assets/90b35c17-567f-4151-88f2-a8fed77e9034)) | ![Admin](![image](https://github.com/user-attachments/assets/1fde4783-0b51-42e8-b570-eda0462b6719)) |
+| ![Home](![image](https://github.com/user-attachments/assets/784f7469-ad09-4b55-afbe-b145c3b8f2d2) | ![Booking](![image](https://github.com/user-attachments/assets/90b35c17-567f-4151-88f2-a8fed77e9034) | ![Admin](![image](https://github.com/user-attachments/assets/1fde4783-0b51-42e8-b570-eda0462b6719) |
 
 ## Why This Matters for My Journey
 
