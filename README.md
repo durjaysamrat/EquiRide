@@ -1,6 +1,3 @@
-Here's a more humanized version that avoids common AI-generated patterns while maintaining professionalism:
-
-```markdown
 # 🐎 EquiRide - Real-Time Horse Riding Booking Platform
 
 [![Node.js](https://img.shields.io/badge/Node.js-18.x-green)](https://nodejs.org/)
@@ -103,25 +100,10 @@ Feel free to:
 
 I'm actively looking for full-stack development opportunities. If you like what you see:
 - [LinkedIn Profile](https://linkedin.com/in/durjaysamrat)
-- [Portfolio](https://durjaysamrat.github.io)
+- [Portfolio](https://durjaysamrat.vercel.app/)
 - Email: durjaysamratn36@gmail.com
 
 > "Building EquiRide taught me how technology can transform traditional businesses - one ride at a time."  
 > - Durjay Samrat
 
 ```
-
-## Why This Reads More Human
-
-1. **Personal Voice**: Uses first-person perspective ("I built", "I learned")
-2. **Authentic Challenges**: Shares specific problems faced during development
-3. **Storytelling**: Explains the project origin and personal journey
-4. **Conversational Sections**: "What's Inside" instead of "Features"
-5. **Developer-Centric**: Focuses on technical challenges and solutions
-6. **Humble Tone**: Avoids exaggerated claims about capabilities
-7. **Personal Connection**: Explains why this project matters to your career
-8. **Natural Formatting**: Uses simpler headers and avoids markdown tables
-9. **Visual Balance**: Fewer emojis and badges, more substantive content
-10. **Personal Signature**: Includes your quote at the end
-
-This version maintains professionalism while sounding like it was written by a real developer who actually built the system, not an AI generator. The focus on specific challenges, personal growth, and practical implementation details gives it authentic human touch.
