@@ -102,7 +102,7 @@ I'm actively looking for full-stack development opportunities. If you like what 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Durjay_Samrat-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/durjaysamrat)
 [![GitHub](https://img.shields.io/badge/GitHub-durjaysamrat-181717?style=flat&logo=github)](https://github.com/durjaysamrat)
-[![Portfolio](https://img.shields.io/badge/Portfolio-View_Projects-FF6B6B?style=flat)](https://durjaysamrat.vercel.app/#projects)
+[![Portfolio](https://img.shields.io/badge/Portfolio-View_Projects-FF6B6B?style=flat)](https://durjaysamrat.vercel.app)
 [![Email](https://img.shields.io/badge/Email-durjaysamratn36@gmail.com-D14836?style=flat&logo=gmail)](mailto:durjaysamratn36@gmail.com)
 
 > "Building EquiRide taught me how technology can transform traditional businesses - one ride at a time."  
